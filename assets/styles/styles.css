@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@400;500;700&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -24,4 +26,52 @@
 }
 .nav-item .nav-link:hover {
   color: #4920db;
+}
+
+.banner-clr {
+  background-image: linear-gradient(122deg, transparent 50%, rgb(175, 19, 128) 50%);
+  height: 85vh;
+  width: 100vw;
+}
+.banner-clr .left-side {
+  margin: 5rem;
+}
+.banner-clr .left-side h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(175, 19, 128);
+  font-family: PoltawskiNowy;
+}
+.banner-clr .left-side p {
+  font-family: PoltawskiNowy;
+  font-size: 1.2rem;
+}
+.banner-clr .left-side .now {
+  background-color: rgb(175, 19, 128);
+  padding: 8px 20px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.banner-clr .left-side .now:hover {
+  box-shadow: #df6eee 5px 5px;
+  background-color: rgb(255, 0, 140);
+}
+.banner-clr .left-side .now .cnt {
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 20px;
+}
+.banner-clr .left-side .now .cnt:hover {
+  color: #000;
+}
+.banner-clr .right-side {
+  display: grid;
+  place-items: center;
+}
+.banner-clr .right-side img {
+  height: 430px;
+  margin-top: 80px;
+  margin-left: 30px;
 }/*# sourceMappingURL=styles.css.map */
